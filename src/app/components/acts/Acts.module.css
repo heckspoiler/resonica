@@ -79,12 +79,19 @@
         position: absolute;
         top: 0;
         width: fit-content;
-        color: var(--green-main);
-        background-color: var(--black-main);
+        background-color: transparent;
         overflow: hidden;
         clip: rect(1px, 1px, 0, 0);
         height: 100%;
         font-family: inherit;
+    }
+
+    .Link::after {
+        color: var(--green-main);
+    }
+
+    .Link::before {
+        color: blue;
     }
 
     .Link:hover:before {
