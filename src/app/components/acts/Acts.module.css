@@ -1,0 +1,37 @@
+.ActContainer {
+    display: flex;
+    max-width: 33vw;
+    width: fit-content;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.Act {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 0 1em 1em;
+    width: fit-content;
+}
+
+.Act:hover a {
+    animation: shimmy 0.1s ease-in infinite;
+}
+
+@keyframes shimmy {
+    0% {
+        transform: translateX(0)
+    }
+
+    33% {
+        transform: translateX(2px)
+    }
+
+    66% {
+        transform: translateX(-2px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
