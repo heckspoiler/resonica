@@ -1,0 +1,42 @@
+.Button {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.6rem 0.8rem;
+    background-color: var(--green-main);
+    color: var(--black-main);
+    outline: none;
+    border: none;
+    transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.Button:hover {
+    transform: scale(1.01) translateY(-3px);
+}
+
+.Button::before,
+.Button::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    background-repeat: no-repeat;
+}
+
+.Button::before {
+    top: -70%;
+    background-image: url()
+}
+
+.Button::after {
+    bottom: -70%;
+}
