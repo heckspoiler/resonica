@@ -1,0 +1,13 @@
+.Navbar {
+    color: var(--font-color);
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    mix-blend-mode: difference;
+}
+
+.Navbar h3 {
+    transform: translateX(6rem);
+}
