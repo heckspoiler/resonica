@@ -20,7 +20,9 @@
 }
 
 .Link {
-    width: fit-content
+    width: fit-content;
+    font-weight: 800;
+    font-size: 2rem;
 }
 
 .Link::after,
@@ -67,6 +69,10 @@
         flex-direction: column;
         gap: 0.5em;
         mix-blend-mode: difference;
+    }
+
+    .Act svg {
+        z-index: 1;
     }
 
     .Link {

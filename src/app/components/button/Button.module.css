@@ -15,7 +15,6 @@
     border: none;
     transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
     overflow: visible;
-    /* Allow pseudo-elements to be visible outside button */
 }
 
 .Button:hover {
@@ -136,3 +135,26 @@
             0% 0%, 0% 0%;
     }
 }
+
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .Button::after {
+        animation: bottomBubbles 1.5s ease-in-out infinite;
+    }
+
+    .Button::before {
+        animation: topBubbles 1.5s ease-in-out infinite;
+    }
+}
+
+/* Tablet and Smaller Desktop */
+
+
+@media (min-width: 768px) and (max-width: 1120px) {}
+
+@media (prefers-color-scheme: dark) {}

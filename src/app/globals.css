@@ -3,12 +3,35 @@
   src: url("/fonts/GT-America-Expanded-Bold-Trial.otf");
 }
 
+@font-face {
+  font-family: "GT America Medium";
+  src: url("/fonts/GT-America-Expanded-Medium-Trial.otf");
+}
+
+@font-face {
+  font-family: "Terminal Grotesque";
+  src: url("/fonts/terminal-grotesque.ttf");
+}
+
+@font-face {
+  font-family: "Terminal Grotesque";
+  src: url("/fonts/terminal-grotesque.ttf");
+}
+
+
+
+@font-face {
+  font-family: "Ygro Sans";
+  src: url("/fonts/YgroSansBeta-Bold.ttf");
+}
+
 :root {
 
   --padding: 2em;
   --font-size: 16px;
   --font-color: rgb(245, 245, 245);
   --title-font: "GT America Bold";
+  --terminal: "Terminal Grotesque";
   --black-main: rgb(43, 43, 43);
   --green-main: #CFFB51;
 }
@@ -116,7 +139,8 @@ h6,
 a,
 button {
   text-transform: uppercase;
-  font-family: "GT America Bold";
+  font-family: "Ygro Sans";
+
 }
 
 a {
