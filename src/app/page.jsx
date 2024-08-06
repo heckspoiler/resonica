@@ -5,6 +5,7 @@ import Button from './components/button/Button';
 import Link from 'next/link';
 import Location from './components/Location';
 import Logo from './components/Logo';
+import LogoTwo from './components/LogoTwo';
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
           </div>
           <div className={styles.ActsContainer}>
             <Acts />
+          </div>
+          <div className={styles.LogoContainer}>
+            <LogoTwo />
           </div>
         </div>
       </section>

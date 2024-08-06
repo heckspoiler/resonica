@@ -4,7 +4,7 @@ export const acts = [
     link: 'https://soundcloud.com/sonicviewrecords/sonic-view-radio-nr-06-by-2m?in=music-by-2m/sets/sets-1',
   },
   {
-    act: 'Adolpho & Franky',
+    act: 'Adolpho + Franky',
     link: 'https://soundcloud.com/resonica/resonica-rec-4-prioleau?in=music-by-2m/sets/resonica-rec',
   },
   {

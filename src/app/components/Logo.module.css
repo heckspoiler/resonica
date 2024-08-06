@@ -1,5 +1,33 @@
+.Logo,
+.LogoTwo {
+    position: fixed;
+    width: 50vw;
+    /* Half the viewport width */
+    height: 50vh;
+    /* Half the viewport height */
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .Logo {
-    max-height: 50vh;
+    left: 0;
+    bottom: 0;
+    transform: translate(-25%, 25%);
+    /* Move left and down */
+}
+
+.LogoTwo {
+    right: 0;
+    top: 0;
+    transform: translate(25%, -25%);
+    /* Move right and up */
+}
+
+.Logo video,
+.LogoTwo video {
+    scale: 2;
 }
 
 /* Enable hover only on non-touch devices */
@@ -7,12 +35,34 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-    .Logo {
+
+    .Logo,
+    .LogoTwo {
         scale: 0.6;
+    }
+
+    .Logo {
+        transform: translate(-40%, 40%);
+        /* Adjust for smaller screens */
+    }
+
+    .LogoTwo {
+        transform: translate(40%, -40%);
+        /* Adjust for smaller screens */
     }
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 768px) and (max-width: 1120px) {}
+@media (min-width: 768px) and (max-width: 1120px) {
+    .Logo {
+        transform: translate(-30%, 30%);
+        /* Adjust for medium screens */
+    }
+
+    .LogoTwo {
+        transform: translate(30%, -30%);
+        /* Adjust for medium screens */
+    }
+}
 
 @media (prefers-color-scheme: dark) {}

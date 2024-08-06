@@ -6,7 +6,7 @@ import styles from './Location.module.css';
 export default function Location() {
   return (
     <Link
-      href="https://www.google.com/maps/place/Lausanne/data=!4m2!3m1!1s0x478c293ecd89a7e5:0xeb173fc9cae2ee5e?sa=X&ved=1t:242&ictx=111"
+      href="https://www.google.com/maps?sca_esv=209cf1f1455dac22&sca_upv=1&output=search&q=Stade+de+la+Tuili%C3%A8re,+Lausanne,+1018,+Lausanne&source=lnms&fbs=AEQNm0DGn4uIgG-mZUrOKeUTf9PvgpEJHCbsPkb90vyLH1BtQ3EJNFVJZTVVtBt9jcRT87OYMU81KVsQfc4g-6hKB12puL88CirK0mg3tlzIa--kazDbYeFbtiogwTvddD8Y16ATH_u3ppmEhuZs3_Raz2IIzOCTr2MtNA1kO1_n-plJy2GROc246iDCUC5ywiDbAWf_6Jh_&entry=mc&ved=1t:200715&ictx=111"
       target="_blank"
       className={styles.Link}
     >
