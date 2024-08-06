@@ -30,7 +30,7 @@
     top: 0;
     width: fit-content;
     color: var(--green-main);
-    background-color: var(--black-main);
+    background-color: black;
     overflow: hidden;
     clip: rect(1px, 1px, 0, 0);
     height: 100%;

@@ -1,11 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 
+import styles from './Location.module.css';
+
 export default function Location() {
   return (
     <Link
       href="https://www.google.com/maps/place/Lausanne/data=!4m2!3m1!1s0x478c293ecd89a7e5:0xeb173fc9cae2ee5e?sa=X&ved=1t:242&ictx=111"
       target="_blank"
+      className={styles.Link}
     >
       <span>Location</span>
 
