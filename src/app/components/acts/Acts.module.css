@@ -54,19 +54,19 @@
 @media (max-width: 768px) {
     .ActContainer {
         display: flex;
+        flex-direction: column;
         max-width: 100vw;
-        width: 100%;
-        height: fit-content;
     }
-
 
     .Act {
         position: relative;
-        padding: 0.5em 1em 0.5em 0;
+        padding: 0.5em 0.5em 0.5em 0;
         color: var(--font-color);
         display: flex;
         align-items: center;
-        gap: 1em;
+        flex-direction: column;
+        gap: 0.5em;
+        mix-blend-mode: difference;
     }
 
     .Link {
@@ -79,19 +79,12 @@
         position: absolute;
         top: 0;
         width: fit-content;
-        background-color: transparent;
+        color: var(--green-main);
+        background-color: black;
         overflow: hidden;
         clip: rect(1px, 1px, 0, 0);
         height: 100%;
         font-family: inherit;
-    }
-
-    .Link::after {
-        color: var(--green-main);
-    }
-
-    .Link::before {
-        color: blue;
     }
 
     .Link:hover:before {
@@ -103,7 +96,6 @@
         left: 2px;
         animation: 5s linear infinite alternate-reverse noise-after;
     }
-
 }
 
 /* Tablet and Smaller Desktop */

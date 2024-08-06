@@ -42,12 +42,12 @@
     }
 
     .Logo {
-        transform: translate(-40%, 40%);
-        /* Adjust for smaller screens */
+        transform: translate(-60%, 60%);
+
     }
 
     .LogoTwo {
-        transform: translate(40%, -40%);
+        transform: translate(60%, -60%);
         /* Adjust for smaller screens */
     }
 }
