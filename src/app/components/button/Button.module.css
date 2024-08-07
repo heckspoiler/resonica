@@ -15,7 +15,7 @@
     border: none;
     transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
     overflow: visible;
-    box-shadow: 0px 0px 15px var(--green-main)
+    box-shadow: 0px 0px 5px var(--green-main)
 }
 
 .Button:hover {
@@ -161,7 +161,6 @@
         border: none;
         transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
         overflow: visible;
-        box-shadow: 0px 0px 15px var(--green-main)
     }
 }
 
