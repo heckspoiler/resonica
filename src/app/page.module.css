@@ -51,6 +51,9 @@
     color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955),
     background-color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   position: relative;
+  font-family: "tt-travels-next", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .Location::before {
@@ -215,16 +218,18 @@
   }
 
   .LeftSectionContent {
-
-
     min-height: 1vh;
   }
 
   .RightSectionContent {
     border-left: none;
     border-top: 3px solid var(--green-main);
-    padding: 2rem;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    height: 100%;
+    border: 1
   }
 
   .RightSectionContent::before {
@@ -254,6 +259,11 @@
 
   .Time {
     font-size: 1rem;
+    transform: translateX(1rem)
+  }
+
+  .Location {
+    padding-top: 2rem;
   }
 
 

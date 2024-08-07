@@ -1,6 +1,6 @@
 .ActContainer {
     display: flex;
-    max-width: 36vw;
+    max-width: 40vw;
     width: fit-content;
     height: fit-content;
     flex-wrap: wrap;
@@ -18,6 +18,18 @@
     gap: 1em;
 }
 
+.Act:nth-of-type(odd) {
+    font-family: "tt-travels-next-outline", sans-serif !important;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.Act:nth-of-type(even) {
+    font-family: "tt-travels-next", sans-serif !important;
+    font-weight: 900;
+    font-style: normal;
+}
+
 
 .Link {
     width: fit-content;
@@ -32,7 +44,7 @@
     top: 0;
     width: fit-content;
     color: var(--green-main);
-    background-color: black;
+    background-color: transparent;
     overflow: hidden;
     clip: rect(1px, 1px, 0, 0);
     height: 100%;
@@ -58,6 +70,8 @@
         display: flex;
         flex-direction: column;
         max-width: 100vw;
+        width: 100vw;
+        padding-top: 4rem;
     }
 
     .Act {
@@ -86,7 +100,7 @@
         top: 0;
         width: fit-content;
         color: var(--green-main);
-        background-color: black;
+        background-color: transparent;
         overflow: hidden;
         clip: rect(1px, 1px, 0, 0);
         height: 100%;

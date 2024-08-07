@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/myn2uis.css");
+
 @font-face {
   font-family: "GT America Bold";
   src: url("/fonts/GT-America-Expanded-Bold-Trial.otf");
@@ -12,7 +14,7 @@
 
 @font-face {
   font-family: "Clash Grotesk";
-  src: url("/fonts/ClashGrotesk-Variable.ttf");
+  src: url("/fonts/Tanker-Regular.woff2");
 }
 
 :root {
@@ -126,13 +128,12 @@ h3,
 h4,
 h5,
 h6,
-a,
+
 button {
   text-transform: uppercase;
-  font-family: var(--terminal);
-
-
-
+  font-family: "tt-travels-next", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 a {
