@@ -218,7 +218,7 @@
 
   .RightSectionContent {
     border-left: none;
-    border-top: 3px solid var(--green-main);
+    border-top: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -243,9 +243,10 @@
   .TitleContainer {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 0.3rem;
     align-items: flex-start;
     position: relative;
+
   }
 
   .Year {
@@ -258,13 +259,13 @@
   }
 
   .Date {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 1rem;
   }
 
   .Time {
-    font-size: 0.8rem;
-    transform: translateX(1rem)
+    font-size: 0.9rem;
+    transform: translateX(0.8rem)
   }
 
   .Location {
@@ -272,7 +273,7 @@
   }
 
   .Location svg {
-    scale: 0.8;
+    scale: 0.9;
   }
 
 
