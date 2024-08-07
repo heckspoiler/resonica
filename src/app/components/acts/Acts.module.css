@@ -65,11 +65,10 @@
 @media (hover: hover) and (pointer: fine) {}
 
 /* Mobile */
+/* Mobile */
 @media (max-width: 768px) {
     .ActContainer {
         display: flex;
-
-
         max-width: 100vw;
         width: 100vw;
         padding: 2rem 0 2rem 0;
@@ -84,7 +83,6 @@
         flex-direction: row;
         gap: 0.2em;
         mix-blend-mode: difference;
-
     }
 
     .Act svg {
@@ -94,7 +92,6 @@
     .Link {
         width: fit-content;
         font-size: 1.3rem;
-
     }
 
     .Link::after,
@@ -106,20 +103,83 @@
         color: var(--green-main);
         background-color: transparent;
         overflow: hidden;
-        clip: rect(1px, 1px, 0, 0);
+        clip: rect(0, auto, auto, 0);
+        /* Changed this line */
         height: 100%;
         font-family: inherit;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
     }
 
-    .Link:hover:before {
+    .Link:before {
         left: -2px;
-        animation: 5s linear infinite alternate-reverse noise-before;
+        animation-name: noise-after;
     }
 
-    .Link:hover:after {
+    .Link:after {
         left: 2px;
-        animation: 5s linear infinite alternate-reverse noise-after;
+        animation-name: noise-before;
     }
+
+
+    .Act:nth-of-type(1) .Link:before,
+    .Act:nth-of-type(1) .Link:after {
+        animation-duration: 5s;
+    }
+
+    .Act:nth-of-type(2) .Link:before,
+    .Act:nth-of-type(2) .Link:after {
+        animation-duration: 5.45s;
+    }
+
+    .Act:nth-of-type(3) .Link:before,
+    .Act:nth-of-type(3) .Link:after {
+        animation-duration: 5.9s;
+    }
+
+    .Act:nth-of-type(4) .Link:before,
+    .Act:nth-of-type(4) .Link:after {
+        animation-duration: 6.35s;
+    }
+
+    .Act:nth-of-type(5) .Link:before,
+    .Act:nth-of-type(5) .Link:after {
+        animation-duration: 6.8s;
+    }
+
+    .Act:nth-of-type(6) .Link:before,
+    .Act:nth-of-type(6) .Link:after {
+        animation-duration: 7.25s;
+    }
+
+    .Act:nth-of-type(7) .Link:before,
+    .Act:nth-of-type(7) .Link:after {
+        animation-duration: 7.7s;
+    }
+
+    .Act:nth-of-type(8) .Link:before,
+    .Act:nth-of-type(8) .Link:after {
+        animation-duration: 8.15s;
+    }
+
+    .Act:nth-of-type(9) .Link:before,
+    .Act:nth-of-type(9) .Link:after {
+        animation-duration: 8.6s;
+    }
+
+    .Act:nth-of-type(10) .Link:before,
+    .Act:nth-of-type(10) .Link:after {
+        animation-duration: 9.05s;
+    }
+
+    .Act:nth-of-type(11) .Link:before,
+    .Act:nth-of-type(11) .Link:after {
+        animation-duration: 9.5s;
+    }
+
+
 }
 
 /* Tablet and Smaller Desktop */
