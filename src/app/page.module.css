@@ -81,7 +81,7 @@
   transform: translateX(5px);
 }
 
-.Location:hover svg path {
+.Location:nth-of-type(1):hover svg path {
   fill: var(--green-main) !important;
 }
 
