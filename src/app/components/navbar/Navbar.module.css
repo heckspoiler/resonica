@@ -8,6 +8,11 @@
     mix-blend-mode: difference;
 }
 
+.Navbar h1 {
+    font-family: var(--title-font);
+    transform: translateY(-1rem)
+}
+
 
 
 /* Enable hover only on non-touch devices */
@@ -34,6 +39,7 @@
     .Navbar img {
         scale: 0.7;
         left: 10vw;
+        transform: translateX(-4.5rem);
     }
 }
 

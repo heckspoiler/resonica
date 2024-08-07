@@ -15,6 +15,7 @@ export default function Navbar() {
           style={{ objectFit: 'contain' }}
         />
       </div>
+      <h1>Festival</h1>
     </nav>
   );
 }
