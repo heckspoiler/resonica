@@ -30,12 +30,14 @@ export default function Home() {
           <div className={styles.Location}>
             <Location />
           </div>
-          <div className={styles.ActsContainer}>
-            <Acts />
+          <div>
+            <div className={styles.ActsContainer}>
+              <Acts />
+            </div>
           </div>
-          <div className={styles.LogoContainer}>
-            <LogoTwo />
-          </div>
+        </div>
+        <div className={styles.LogoContainer}>
+          <LogoTwo />
         </div>
       </section>
     </main>

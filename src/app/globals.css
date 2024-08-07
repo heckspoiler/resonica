@@ -8,23 +8,11 @@
   src: url("/fonts/GT-America-Expanded-Medium-Trial.otf");
 }
 
-@font-face {
-  font-family: "Terminal Grotesque";
-  src: url("/fonts/terminal-grotesque.ttf");
-}
-
 
 
 @font-face {
-  font-family: "Terminal Grotesque";
-  src: url("/fonts/terminal-grotesque.ttf");
-}
-
-
-
-@font-face {
-  font-family: "Ygro Sans";
-  src: url("/fonts/YgroSansBeta-Bold.ttf");
+  font-family: "Clash Grotesk";
+  src: url("/fonts/ClashGrotesk-Variable.ttf");
 }
 
 :root {
@@ -33,7 +21,7 @@
   --font-size: 16px;
   --font-color: rgb(245, 245, 245);
   --title-font: "GT America Bold";
-  --terminal: "Terminal Grotesque";
+  --terminal: "Clash Grotesk";
   --black-main: rgb(43, 43, 43);
   --green-main: #CFFB51;
 }
@@ -144,6 +132,7 @@ button {
   font-family: var(--terminal);
 
 
+
 }
 
 a {
@@ -152,7 +141,6 @@ a {
   font-weight: 800;
   font-size: 1.8rem;
   text-transform: uppercase;
-  letter-spacing: 5px;
 
 }
 
