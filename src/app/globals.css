@@ -13,6 +13,8 @@
   src: url("/fonts/terminal-grotesque.ttf");
 }
 
+
+
 @font-face {
   font-family: "Terminal Grotesque";
   src: url("/fonts/terminal-grotesque.ttf");
@@ -139,7 +141,8 @@ h6,
 a,
 button {
   text-transform: uppercase;
-  font-family: "Ygro Sans";
+  font-family: var(--terminal);
+
 
 }
 
@@ -147,8 +150,10 @@ a {
   color: inherit;
   text-decoration: none;
   font-weight: 800;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
+  letter-spacing: 5px;
+
 }
 
 /* Enable hover only on non-touch devices */
