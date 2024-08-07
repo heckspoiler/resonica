@@ -143,6 +143,10 @@
 /* Mobile */
 @media (max-width: 768px) {
 
+    .ButtonContainer {
+        scale: 0.8;
+    }
+
     .Button::after {
         animation: bottomBubbles 1.5s ease-in-out infinite;
     }

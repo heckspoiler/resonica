@@ -54,6 +54,8 @@
   font-family: "tt-travels-next", sans-serif;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  gap: 2rem;
 }
 
 .Location::before {
@@ -193,9 +195,11 @@
     display: flex;
     min-height: 100vh;
     color: var(--font-color);
-    flex-direction: column-reverse;
-    padding: 10rem 0 0 0;
+    flex-direction: column;
+    padding: 8rem 0 0 0;
   }
+
+
 
   .Container {
     padding: 0rem;
@@ -220,7 +224,8 @@
     justify-content: space-evenly;
     position: relative;
     height: 100%;
-    border: 1
+    border: 1;
+    transform: translateY(2rem);
   }
 
   .RightSectionContent::before {
@@ -232,10 +237,19 @@
 
   .TitleContainer::after {
     width: 100%;
+
+  }
+
+  .TitleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    position: relative;
   }
 
   .Year {
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 0rem;
   }
 
@@ -244,17 +258,21 @@
   }
 
   .Date {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     padding: 1rem;
   }
 
   .Time {
-    font-size: 1rem;
+    font-size: 0.8rem;
     transform: translateX(1rem)
   }
 
   .Location {
     padding-top: 2rem;
+  }
+
+  .Location svg {
+    scale: 0.8;
   }
 
 

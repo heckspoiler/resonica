@@ -68,21 +68,23 @@
 @media (max-width: 768px) {
     .ActContainer {
         display: flex;
-        flex-direction: column;
+
+
         max-width: 100vw;
         width: 100vw;
-        padding-top: 4rem;
+        padding: 2rem 0 2rem 0;
     }
 
     .Act {
         position: relative;
-        padding: 0.5em 0.5em 0.5em 0;
+        padding: 0.2em 0.2em 0.2em 0;
         color: var(--font-color);
         display: flex;
         align-items: center;
-        flex-direction: column;
-        gap: 0.5em;
+        flex-direction: row;
+        gap: 0.2em;
         mix-blend-mode: difference;
+
     }
 
     .Act svg {
@@ -90,7 +92,9 @@
     }
 
     .Link {
-        width: fit-content
+        width: fit-content;
+        font-size: 1.3rem;
+
     }
 
     .Link::after,

@@ -21,6 +21,7 @@ export default function LogoTwo() {
       <video
         ref={videoRef}
         src="/video.mp4"
+        autoPlay={true}
         height={500}
         width={500}
         controls={false}

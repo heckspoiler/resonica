@@ -4,11 +4,10 @@
     width: 50vw;
     /* Half the viewport width */
     height: 50vh;
-    /* Half the viewport height */
-    z-index: -1;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -3;
 }
 
 .Logo {
@@ -42,14 +41,10 @@
     }
 
     .Logo {
-        transform: translate(-60%, 60%);
-
+        visibility: hidden;
     }
 
-    .LogoTwo {
-        transform: translate(60%, -60%);
-        /* Adjust for smaller screens */
-    }
+
 }
 
 /* Tablet and Smaller Desktop */
