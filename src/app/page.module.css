@@ -134,16 +134,6 @@
   background-color: var(--green-main);
 }
 
-.Year::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: -4rem;
-  width: 10px;
-  height: 10px;
-  background-color: var(--green-main);
-  transform: translateY(-50%) rotate(45deg);
-}
 
 .Date {
   font-size: 3rem;
@@ -175,6 +165,7 @@
   position: relative;
   padding-right: 20px;
   display: inline-block;
+  transform: translateX(0.5rem)
 }
 
 .Time::before {
