@@ -64,7 +64,7 @@
 }
 
 .Button:hover::before {
-    animation: topBubbles 1.5s ease-in-out infinite;
+    animation: topBubbles 1.5s ease-in-out;
 }
 
 .Button::after {
@@ -91,7 +91,7 @@
 }
 
 .Button:hover::after {
-    animation: bottomBubbles 1.5s ease-in-out infinite;
+    animation: bottomBubbles 1.5s ease-in-out;
 }
 
 @keyframes topBubbles {
