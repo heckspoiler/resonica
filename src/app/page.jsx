@@ -23,9 +23,15 @@ export default function Home() {
       <section className={styles.Container}>
         <div className={styles.RightSectionContent}>
           <div className={styles.TitleContainer}>
-            <h2 className={styles.Year}>2024</h2>
-            <h2 className={styles.Date}>14.09 - 15.09</h2>
-            <h3 className={styles.Time}>2pm - 2am</h3>
+            {/* <h2 className={styles.Year}>2024</h2> */}
+            <h2 className={styles.Date}>
+              14 - 15 <br />
+              September
+            </h2>
+            <h3 className={styles.Time}>
+              From 2pm <br />
+              to 2am
+            </h3>
           </div>
           <div className={styles.Location}>
             <Location />
