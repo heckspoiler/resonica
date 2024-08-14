@@ -11,12 +11,11 @@
 
 .Act {
     position: relative;
-    padding: 0.5em 1em 0.5em 0;
+    padding: 0 1em;
     color: var(--font-color);
     display: flex;
     align-items: center;
     gap: 1em;
-
 }
 
 /* .Act:nth-of-type(odd) {

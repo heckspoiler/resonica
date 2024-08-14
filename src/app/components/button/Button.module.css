@@ -7,13 +7,15 @@
     position: relative;
     font-size: 2.5rem;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 1rem 1.2rem;
     background-color: transparent;
     color: var(--font-color);
     outline: none;
     border: none;
     transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
     overflow: visible;
+    border: 1px solid var(--font-color);
+    border-radius: 40px;
 }
 
 .Button:hover {

@@ -106,9 +106,10 @@
 
 
 .Date {
-  font-size: 3rem;
+  font-size: 2rem;
   position: relative;
   padding: 0.5rem 0;
+
 }
 
 /* .Date::before {
