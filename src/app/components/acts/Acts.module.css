@@ -11,7 +11,7 @@
 
 .Act {
     position: relative;
-    padding: 0 1em 0 0.5em;
+    padding: 0 1em 0 0;
     color: var(--font-color);
     display: flex;
     align-items: center;
@@ -22,6 +22,7 @@
 .Link {
     width: fit-content;
     font-size: 2rem;
+    font-family: var(--slim-font)
 }
 
 .Link::after,
@@ -58,13 +59,13 @@
         display: flex;
         max-width: 100vw;
         width: 100vw;
-        padding: 2rem 0 2rem 0;
+        padding: 2rem 0 0 0;
 
     }
 
     .Act {
         position: relative;
-        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        padding: 0 0.3em 0 0;
         color: var(--font-color);
         display: flex;
         align-items: center;
@@ -75,6 +76,7 @@
 
     .Act svg {
         z-index: 1;
+        scale: 0.6;
     }
 
     .Link {

@@ -43,6 +43,7 @@
   position: relative;
   display: flex;
   gap: 2rem;
+
 }
 
 .Location a:nth-of-type(1) {
