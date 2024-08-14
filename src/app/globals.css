@@ -17,10 +17,11 @@
 
 :root {
 
-  --padding: 2em;
   --font-size: 16px;
   --font-color: rgb(245, 245, 245);
   --title-font: "GT America Black";
+  --accent-font: "GT America Bold";
+  --slim-font: "GT America Medium";
   --black-main: rgb(43, 43, 43);
   --green-main: #CFFB51;
 }
@@ -57,7 +58,6 @@ h5,
 h6,
 button {
   text-transform: uppercase;
-  /* font-family: "tt-travels-next", sans-serif; */
   font-family: var(--title-font);
 }
 
@@ -66,9 +66,7 @@ a {
   text-decoration: none;
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-weight: 600;
   font-family: var(--title-font);
-
 }
 
 /* Enable hover only on non-touch devices */

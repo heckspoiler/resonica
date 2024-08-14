@@ -5,7 +5,7 @@
 
 .Button {
     position: relative;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     padding: 1rem 1.2rem;
     background-color: transparent;
@@ -16,6 +16,8 @@
     overflow: visible;
     border: 1px solid var(--font-color);
     border-radius: 40px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 .Button:hover {
@@ -155,10 +157,9 @@
         text-transform: uppercase;
         padding: 1rem 1.5rem;
         color: var(--font-color);
-        outline: none;
-        border: none;
         transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
         overflow: visible;
+
     }
 }
 

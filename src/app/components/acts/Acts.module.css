@@ -18,18 +18,6 @@
     gap: 1em;
 }
 
-/* .Act:nth-of-type(odd) {
-    font-family: "tt-travels-next-outline", sans-serif !important;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.Act:nth-of-type(even) {
-    font-family: "tt-travels-next", sans-serif !important;
-    font-weight: 900;
-    font-style: normal;
-} */
-
 
 .Link {
     width: fit-content;
@@ -91,10 +79,10 @@
 
     .Link {
         width: fit-content;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
-    .Link::after,
+    /* .Link::after,
     .Link::before {
         content: attr(data-glitch);
         position: absolute;
@@ -104,16 +92,15 @@
         background-color: transparent;
         overflow: hidden;
         clip: rect(0, auto, auto, 0);
-        /* Changed this line */
         height: 100%;
         font-family: inherit;
         animation-duration: 5s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
-    }
+    } */
 
-    .Link:before {
+    /* .Link:before {
         left: -2px;
         animation-name: noise-after;
     }
@@ -121,7 +108,7 @@
     .Link:after {
         left: 2px;
         animation-name: noise-before;
-    }
+    } */
 
 
     .Act:nth-of-type(1) .Link:before,
