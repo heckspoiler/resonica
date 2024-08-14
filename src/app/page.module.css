@@ -30,7 +30,6 @@
   justify-content: space-evenly;
   position: relative;
   height: 100%;
-  border: 1
 }
 
 
@@ -127,7 +126,7 @@
   letter-spacing: 2px;
   position: relative;
   display: inline-block;
-  font-family: var(--accent-font)
+  font-family: var(--slim-font)
 }
 
 /* .Time::before {
@@ -186,7 +185,8 @@
     justify-content: space-evenly;
     position: relative;
     height: 100%;
-    border: 1;
+    gap: 1rem;
+    padding-top: 2rem;
   }
 
   .RightSectionContent::before {

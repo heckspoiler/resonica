@@ -28,10 +28,7 @@ export default function Home() {
               14-15 <br />
               September
             </h2>
-            <h3 className={styles.Time}>
-              From 2pm <br />
-              to 2am
-            </h3>
+            <h3 className={styles.Time}>From 2pm to 2am</h3>
           </div>
           <div className={styles.Location}>
             <Location />
