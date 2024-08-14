@@ -21,8 +21,8 @@
 
 .Link {
     width: fit-content;
-    font-size: 2rem;
-    font-family: var(--slim-font)
+    font-size: 1.8rem;
+    font-family: var(--title-font)
 }
 
 .Link::after,

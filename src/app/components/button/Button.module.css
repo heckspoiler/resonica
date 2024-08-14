@@ -17,7 +17,8 @@
     border: 1px solid var(--font-color);
     border-radius: 40px;
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: var(--title-font)
 }
 
 .Button:hover {
@@ -148,7 +149,7 @@
 
     .ButtonContainer {
         scale: 0.9;
-        transform: translateY(2vh);
+        font-family: var(--title-font)
     }
 
     .Button {

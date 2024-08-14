@@ -9,13 +9,12 @@ export default function Navbar() {
       <div>
         <Image
           src={Logo}
-          width={300}
+          width={250}
           height={64}
           loading="lazy"
           style={{ objectFit: 'contain' }}
         />
       </div>
-      {/* <h1>Festival</h1> */}
     </nav>
   );
 }
