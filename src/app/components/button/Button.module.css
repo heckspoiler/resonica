@@ -1,5 +1,5 @@
 .ButtonContainer {
-    background-color: var(--font-color);
+    background-color: transparent;
     width: fit-content;
 }
 
@@ -9,13 +9,12 @@
     font-weight: 600;
     text-transform: uppercase;
     padding: 1rem;
-    background-color: black;
+    background-color: transparent;
     color: var(--font-color);
     outline: none;
     border: none;
     transition: transform 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
     overflow: visible;
-    box-shadow: 0px 0px 5px var(--green-main)
 }
 
 .Button:hover {
@@ -155,7 +154,6 @@
         font-weight: 600;
         text-transform: uppercase;
         padding: 1rem 1.5rem;
-        background-color: black;
         color: var(--font-color);
         outline: none;
         border: none;
