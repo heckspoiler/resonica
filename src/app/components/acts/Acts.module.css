@@ -11,7 +11,7 @@
 
 .Act {
     position: relative;
-    padding: 0 1em;
+    padding: 0 1em 0 0.5em;
     color: var(--font-color);
     display: flex;
     align-items: center;
