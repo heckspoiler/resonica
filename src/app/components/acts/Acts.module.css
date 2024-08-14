@@ -16,9 +16,13 @@
     display: flex;
     align-items: center;
     gap: 1em;
+    font-family: "tt-travels-next", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
-.Act:nth-of-type(odd) {
+/* .Act:nth-of-type(odd) {
     font-family: "tt-travels-next-outline", sans-serif !important;
     font-weight: 900;
     font-style: normal;
@@ -28,7 +32,7 @@
     font-family: "tt-travels-next", sans-serif !important;
     font-weight: 900;
     font-style: normal;
-}
+} */
 
 
 .Link {
