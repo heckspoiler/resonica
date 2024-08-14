@@ -23,7 +23,7 @@ export default function Home() {
       <section className={styles.Container}>
         <div className={styles.RightSectionContent}>
           <div className={styles.TitleContainer}>
-            {/* <h2 className={styles.Year}>2024</h2> */}
+            <h2 className={styles.Year}>2024</h2>
             <h2 className={styles.Date}>
               14-15 <br />
               September
