@@ -232,8 +232,10 @@
 
   .Listen {
     width: 100%;
-    text-align: right;
+    text-align: center;
     padding-top: 1rem;
+    font-size: 0.6rem;
+
   }
 
 }
