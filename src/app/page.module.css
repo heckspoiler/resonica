@@ -230,6 +230,11 @@
     scale: 0.9;
   }
 
+  .Listen {
+    width: 100%;
+    text-align: right;
+    padding-top: 1rem;
+  }
 
 }
 
