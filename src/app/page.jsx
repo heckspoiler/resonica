@@ -25,7 +25,7 @@ export default function Home() {
           <div className={styles.TitleContainer}>
             <h2 className={styles.Year}>2024</h2>
             <h2 className={styles.Date}>
-              14 & 15 <br />
+              14 - 15 <br />
               September
             </h2>
             <h3 className={styles.Time}>From 2pm to 2am</h3>
