@@ -63,9 +63,9 @@
     background-repeat: no-repeat;
 }
 
-.Button:hover::before {
+/* .Button:hover::before {
     animation: topBubbles 1.5s ease-in-out;
-}
+} */
 
 .Button::after {
     bottom: -45%;
@@ -90,9 +90,9 @@
     background-repeat: no-repeat;
 }
 
-.Button:hover::after {
+/* .Button:hover::after {
     animation: bottomBubbles 1.5s ease-in-out;
-}
+} */
 
 @keyframes topBubbles {
     0% {
