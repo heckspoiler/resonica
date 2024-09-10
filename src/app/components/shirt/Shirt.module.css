@@ -1,9 +1,7 @@
 .container {
-
     width: 400px;
     height: 400px;
     perspective: 1000px;
-
 }
 
 .flipper {
@@ -20,6 +18,7 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
 .front div,
@@ -27,7 +26,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 40%);
+    transform: translate(-50%, 40%) translateZ(20px);
+    /* Add depth here */
     padding: 1rem;
     border-radius: 40px;
     border: 1px solid white;
@@ -41,6 +41,11 @@
     transform: rotateY(180deg);
 }
 
+.back div {
+    transform: translate(-50%, 40%) translateZ(20px);
+    /* Adjust for back side */
+}
+
 @keyframes rotate {
     0% {
         transform: rotateY(0deg);
@@ -51,33 +56,29 @@
     }
 }
 
-
-
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {}
-
-
-
 /* Mobile */
 @media (max-width: 768px) {
     .container {
-
         width: 230px;
         height: 230px;
         perspective: 1000px;
-
     }
 
     .front div,
     .back div {
-
         padding: 0.5rem;
         font-size: 0.8rem;
-        transform: translate(-50%, 60%);
-
+        transform: translate(-50%, 60%) translateZ(10px);
+        /* Adjust depth for mobile */
     }
 
+    .back div {
+        transform: translate(-50%, 60%) translateZ(-10px);
+        /* Adjust for back side on mobile */
+    }
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 768px) and (max-width: 1120px) {}
+@media (min-width: 768px) and (max-width: 1120px) {
+    /* Add any specific styles for tablet and smaller desktop if needed */
+}
