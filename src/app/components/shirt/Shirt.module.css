@@ -69,12 +69,12 @@
         padding: 0.5rem;
         font-size: 0.8rem;
         transform: translate(-50%, 60%) translateZ(10px);
-        /* Adjust depth for mobile */
+
     }
 
     .back div {
-        transform: translate(-50%, 60%) translateZ(-10px);
-        /* Adjust for back side on mobile */
+        transform: translate(-50%, 60%) translateZ(10px);
+
     }
 }
 
