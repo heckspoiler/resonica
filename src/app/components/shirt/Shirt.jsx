@@ -27,6 +27,7 @@ export const Shirt = () => {
             layout="fill"
             objectFit="contain"
           />
+          <div>Buy Merch</div>
         </div>
         <div className={styles.back}>
           <Image
@@ -35,6 +36,7 @@ export const Shirt = () => {
             layout="fill"
             objectFit="contain"
           />
+          <div>Buy Merch</div>
         </div>
       </div>
     </div>

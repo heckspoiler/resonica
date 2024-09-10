@@ -22,6 +22,21 @@
     backface-visibility: hidden;
 }
 
+.front div,
+.back div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    padding: 1rem;
+    border-radius: 40px;
+    border: 1px solid white;
+    width: fit-content;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
 .back {
     transform: rotateY(180deg);
 }
@@ -50,6 +65,14 @@
         width: 230px;
         height: 230px;
         perspective: 1000px;
+
+    }
+
+    .front div,
+    .back div {
+
+        padding: 0.5rem;
+        font-size: 0.8rem;
 
     }
 
