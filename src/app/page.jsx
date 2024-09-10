@@ -38,8 +38,8 @@ export default function Home() {
             <h3 className={styles.Time}>From 2pm to 2am</h3>
           </div>
           <div className={styles.Location}>
-            <Contact />
             <Location />
+
             <a href="https://www.instagram.com/resonica_xyz/" target="_blank">
               <svg
                 width="40"
@@ -67,6 +67,7 @@ export default function Home() {
                 />
               </svg>
             </a>
+
             <a href="https://soundcloud.com/resonica" target="_blank">
               <svg
                 width="40"
@@ -82,6 +83,7 @@ export default function Home() {
                 />
               </svg>
             </a>
+            <Contact />
           </div>
           <div>
             <div className={styles.ActsContainer}>

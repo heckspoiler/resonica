@@ -47,6 +47,7 @@
   position: relative;
   display: flex;
   gap: 2rem;
+  align-items: center;
 
 }
 
@@ -60,7 +61,7 @@
   color: white;
 }
 
-.Location a:nth-of-type(2) {
+.Location a:nth-of-type(4) {
   display: flex;
   align-items: center;
   gap: 0.5em;
