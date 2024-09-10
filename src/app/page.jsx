@@ -7,6 +7,7 @@ import Location from './components/Location';
 import Logo from './components/Logo';
 import LogoTwo from './components/LogoTwo';
 import { Shirt } from './components/shirt/Shirt';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
             <h3 className={styles.Time}>From 2pm to 2am</h3>
           </div>
           <div className={styles.Location}>
+            <Contact />
             <Location />
             <a href="https://www.instagram.com/resonica_xyz/" target="_blank">
               <svg
