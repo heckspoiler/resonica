@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Location from './components/Location';
 import Logo from './components/Logo';
 import LogoTwo from './components/LogoTwo';
+import { Shirt } from './components/shirt/Shirt';
 
 export default function Home() {
   return (
@@ -17,6 +18,11 @@ export default function Home() {
         <div className={styles.LeftSectionContent}>
           <div className={styles.ButtonContainer}>
             <Button />
+          </div>
+          <div className={styles.ShirtContainer}>
+            <Link href="https://resonica.bandcamp.com/" target="_blank">
+              <Shirt />
+            </Link>
           </div>
         </div>
       </section>

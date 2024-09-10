@@ -71,7 +71,6 @@
         align-items: center;
         flex-direction: row;
         gap: 0.3rem;
-        mix-blend-mode: difference;
     }
 
     .Act svg {
