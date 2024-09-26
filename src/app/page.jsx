@@ -4,8 +4,6 @@ import Acts from './components/acts/Acts';
 import Button from './components/button/Button';
 import Link from 'next/link';
 import Location from './components/Location';
-import Logo from './components/Logo';
-import LogoTwo from './components/LogoTwo';
 import { Shirt } from './components/shirt/Shirt';
 import Contact from './components/Contact';
 
