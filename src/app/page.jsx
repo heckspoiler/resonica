@@ -12,9 +12,7 @@ import Contact from './components/Contact';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.LogoContainer}>
-        <Logo />
-      </div>
+      <div className={styles.LogoContainer}>{/* <Logo /> */}</div>
       <section className={styles.Container}>
         <div className={styles.LeftSectionContent}>
           <div className={styles.ButtonContainer}>
@@ -94,9 +92,7 @@ export default function Home() {
 
         <h5 className={styles.Listen}>click artist to listen</h5>
       </section>
-      <div className={styles.LogoContainer}>
-        <LogoTwo />
-      </div>
+      <div className={styles.LogoContainer}>{/* <LogoTwo /> */}</div>
     </main>
   );
 }
